@@ -20,6 +20,7 @@ public struct ObservableOptions: OptionSet, CustomStringConvertible {
         self.rawValue = rawValue
     }
     
+    
     public var description: String {
         switch self {
         case .initial:
