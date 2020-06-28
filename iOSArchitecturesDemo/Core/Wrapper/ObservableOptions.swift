@@ -34,6 +34,7 @@ public struct ObservableOptions: OptionSet, CustomStringConvertible {
     }
 }
 
+
 public class Observable<Type> {
     
     fileprivate class Callback {
